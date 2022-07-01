@@ -1,0 +1,66 @@
+
+
+
+
+div{
+    border: 1px solid grey; 
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    width: 150px;
+    height: 100px;
+    display:inline-block;
+    margin-bottom: 20px;
+    
+ }
+ 
+ #panel1{
+    margin: 100px;
+    background-color:#c9c9c9;
+    position: relative;
+ }
+    #panel1:hover{
+      background-color: red;
+      transition: 4s;
+}
+ 
+ #panel2{
+    background-color:#4472c4;
+    position: relative;
+    left:148px;
+ }
+ #panel2:hover{
+   background-color: purple;
+   transition: 4s;
+ }
+ #panel3{
+    background-color:#8496b0;
+    position: relative;
+    right: 360px;
+    top: 200px;
+ }
+ #panel3:hover{
+   background-color: orange;
+   transition: 4s;
+ }
+ #panel4{
+    background-color: #8eaadb;
+    position: relative; ;
+    right: 868px;
+    top: 400px;
+ }
+ #panel4:hover{
+   background-color: red;
+   transition: 4s;
+ }
+ #panel5{
+    background-color:#f7caac;
+    position: relative;
+    left:603px;
+    top: 100px;
+ }
+ #panel5:hover{
+   background-color: green;
+   transition: 4s;
+ }
